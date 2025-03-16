@@ -43,7 +43,7 @@
     transition: 0.6;
 }
 
-nac ul li:jover a::after{
+nav ul li:hover a::after{
     width: 100%;
 }
 
