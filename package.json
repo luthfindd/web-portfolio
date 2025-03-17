@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "next build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "build": "npm run generate-html && vite build",
+    "generate-html": "mkdir -p dist && cp index.html dist/"
   },
   "dependencies": {
     "18": "^0.0.0",
