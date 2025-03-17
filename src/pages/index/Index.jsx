@@ -1,20 +1,20 @@
 import React from "react";
-import Nav from "../../components/nav/Nav";
+import Nav from "@/components/nav/Nav";
 
 import indexCSS from './../index/Index.module.css';
 
-import heroImg from './../../assets/pasfoto2.jpg';
-import aboutImage from './../../assets/about.jpeg';
-import frontend from './../../assets/Frontend.png';
-import Backend from './../../assets/Backend.png';
-import UiUxDesign from './../../assets/UiUx.png';
+import heroImg from '@/assets/pasfoto2.jpg';
+import aboutImage from '@/assets/about.jpeg';
+import frontend from '@/assets/Frontend.png';
+import Backend from '@/assets/Backend.png';
+import UiUxDesign from '@/assets/UiUx.png';
 
 import { ReactTyped } from "react-typed";
 
-import projectImg01 from './../../assets/portfolio-image-01.png'
-import projectImg02 from './../../assets/portfolio-image-02.png'
-import projectImg03 from './../../assets/portfolio-image-03.png'
-import projectImg04 from './../../assets/portfolio-image-04.png'
+import projectImg01 from '@/assets/portfolio-image-01.png'
+import projectImg02 from '@/assets/portfolio-image-02.png'
+import projectImg03 from '@/assets/portfolio-image-03.png'
+import projectImg04 from '@/assets/portfolio-image-04.png'
 
 function Index () {
     return (
