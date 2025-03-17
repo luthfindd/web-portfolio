@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "buildCommand": "npm run build",
-    "generate-html": "mkdir -p dist && cp index.html dist/",
+    "build": "next build",
+    "generate-html": "cp index.html dist/",
     "lint": "eslint . --ext js, jsx --report-unused-disable-directives --max-warnings 0",
     "copy-index": "cp index.html dist/",
     "preview": "vite preview"
